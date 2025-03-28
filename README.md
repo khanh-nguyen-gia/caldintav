@@ -1,13 +1,13 @@
 Overview
 =========================
 
-Caldintav is a program that is developed by GCM in Python language in order to calculate the
+Caldintav is a program developed by GCM in Python to calculate the
 dynamic responses of the bridges under the railway traffic loadings. 
 
-The program offers::
+The program offers:
 
-    1. Can be used for analyzing both types of bridges:  simply-supported and continuos bridges
-    2. Determine the time history of displacement and acceleration at the mid-span of bridge
+    1. Can be used for analyzing both types of bridges:  simply-supported and continuous bridges
+    2. Determine the time history of displacement and acceleration at the mid-span of the  bridge
     3. Determine the envelope of the maximum dynamic responses for a range of train velocities
     4. Can be used to perform a parametric calculation for various bridges and trains.
 
@@ -52,23 +52,23 @@ Maybe you need to be the administrator to install the program.
 Running the CALDINTAV software
 =========================
 
-If the users have installed the CALDINTAV program as a Python package, It is necessary to
+If the users have installed the CALDINTAV program as a Python package, it is necessary to
 follow the next steps to run the program:
 
 Open the Command Window (Terminal in Linux or Mac OS, Command Prompt in Windows
 system)
 
-Use the following command in the Command Window::
+Use the following command in the Command Window:
 
     caldintav3
 
-or introducing the following commands in the Python shell::
+or introducing the following commands in the Python shell:
 
     from caldintav import runs
     runs.run_gui()
 
 
-For Windows system, there is an executable program called caldintav.exe in the uncompressed folder and to run the program, only double click on the executable file
+For the Windows system, there is an executable program called caldintav.exe in the uncompressed folder, and to run the program, only double-click on the executable file
 
 Support
 =========================
